@@ -9,6 +9,7 @@ import { CoursesComponent } from './courses/courses.component';
 
 
 
+
 @NgModule({
   declarations: [
     CoursesComponent
@@ -16,7 +17,7 @@ import { CoursesComponent } from './courses/courses.component';
   imports: [
     CommonModule,
     CoursesRoutingModule,
-    AppMaterialModule
+    AppMaterialModule,
   ]
 })
 export class CoursesModule { }
